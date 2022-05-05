@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+option csharp_namespace = "ChargerLot.Protos.LotService";
+
 import "google/protobuf/timestamp.proto";
 
 message Report {
